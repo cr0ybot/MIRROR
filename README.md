@@ -1,8 +1,8 @@
-# Mirror: the Game that Plays You
+# MIRROR: the Game that Plays You
 
 My 2010 BFA thesis project from the Cleveland Institute of Art.
 
-## What is Mirror?
+## What is MIRROR?
 
 ##### An excerpt from my thesis paper:
 
@@ -10,11 +10,11 @@ My 2010 BFA thesis project from the Cleveland Institute of Art.
 
 My thesis paper can be found at [my website](http://www.coryhughart.com/portfolio/games/mirror/thesis.pdf). I made it into a book for the presentation, which is available at [blurb.com](http://blurb.com/bookstore/detail/1305563), free to read and download. You can even purchase a hard-bound copy if you feel inclined.
 
-All that aside, Mirror is a game that involves controling an avatar's hands with 2 computer mice. Move a mouse to move the corresponding hand, then press the mouse button (with your index finger) in order to grab hold of a block. Other features include webcam face recognition and placement on the avatar, an auto-reset during idle time (it was developed to run as a kiosk for a full week), and a sense of unrestrained glee at scaling walls in leaps and bounds.
+All that aside, MIRROR is a game that involves controling an avatar's hands with 2 computer mice. Move a mouse to move the corresponding hand, then press the mouse button (with your index finger) in order to grab hold of a block. Other features include webcam face recognition and placement on the avatar, an auto-reset during idle time (it was developed to run as a kiosk for a full week), and a sense of unrestrained glee at scaling walls in leaps and bounds.
 
 Check out http://coryhughart.com/#mirror for screenshots, a teaser vid, and photos of the installation.
 
-## How do I play Mirror?
+## How do I play MIRROR?
 
 ##### In three words: I'm not sure.
 
@@ -30,13 +30,13 @@ If you are familiar with [Processing](http://www.processing.org), you may be abl
 
 _*Though Java, and by extension Processing, is cross-platform, the library I used to handle input from 2 USB mice did not work on Windows at the time._
 
-Mirror _will_ run without the custom mice (but 2 USB mice _are_ required), _will not_ run without an Arduino (with Firmata installed) plugged in, and will _probably break_ without a webcam. Even if you have all of the above it may _still_ not work, considering the Processing IDE has been updated since 2010 and Mac OS X Lion+ compatibility nightmares. This repository is mostly for archival and sharing purposes and is not under active development, so it is possible that these problems may not get fixed. When I eventually get to building a real game out of this concept, I won't be using this source code anyways. But I've open-source'd it because everything I used to make this game is open source, and it's only fair. I hope that at least some of this code is helpful or inspirational to others.
+MIRROR _will_ run without the custom mice (but 2 USB mice _are_ required), _will not_ run without an Arduino (with Firmata installed) plugged in, and will _probably break_ without a webcam. Even if you have all of the above it may _still_ not work, considering the Processing IDE has been updated since 2010 and Mac OS X Lion+ compatibility nightmares. This repository is mostly for archival and sharing purposes and is not under active development, so it is possible that these problems may not get fixed. When I eventually get to building a real game out of this concept, I won't be using this source code anyways. But I've open-source'd it because everything I used to make this game is open source, and it's only fair. I hope that at least some of this code is helpful or inspirational to others.
 
 If you somehow do get this working, please let me know!
 
 ## The Details
 
-Mirror was made with [Processing](http://processing.org) and the [Arduino](http://arduino.cc).
+MIRROR was made with [Processing](http://processing.org) and the [Arduino](http://arduino.cc).
 
 These open-source libraries were used to make MIRROR:
 

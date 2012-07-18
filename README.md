@@ -33,3 +33,18 @@ _*Though Java, and by extension Processing, is cross-platform, the library I use
 Mirror _will_ run without the custom mice (but 2 USB mice _are_ required), _will not_ run without an Arduino (with Firmata installed) plugged in, and will _probably break_ without a webcam. Even if you have all of the above it may _still_ not work, considering the Processing IDE has been updated since 2010 and Mac OS X Lion+ compatibility nightmares. This repository is mostly for archival and sharing purposes and is not under active development, so it is possible that these problems may not get fixed. When I eventually get to building a real game out of this concept, I won't be using this source code anyways. But I've open-source'd it because everything I used to make this game is open source, and it's only fair. I hope that at least some of this code is helpful or inspirational to others.
 
 If you somehow do get this working, please let me know!
+
+## The Details
+
+Mirror was made with [Processing](http://processing.org) and the [Arduino](http://arduino.cc).
+
+These open-source libraries were used to make MIRROR:
+
+ * [JBox2D](http://jbox2d.org)
+ * [OpenCV](http://ubaa.net/shared/processing/opencv)
+ * [proCONTROLL](http://creativecomputing.cc/p5libs/procontroll)
+ * [Arduino & Firmata](http://www.arduino.cc/playground/Interfacing/Processing)
+ * [Minim](http://code.compartmental.net/tools/minim/)
+ * [FullScreen API](http://www.superduper.org/processing/fullscreen_api/)
+
+Special thanks to Daniel Shiffman for his [PBox2D](http://github.com/shiffman/PBox2D) helper library for JBox2D in Processing.
